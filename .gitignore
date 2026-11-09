@@ -1,0 +1,109 @@
+﻿# Local machine files and secrets
+local.properties
+**/local.properties
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+secrets.properties
+keystore.properties
+**/keystore.properties
+
+# Android / Gradle build output
+.gradle/
+**/.gradle/
+**/build/
+**/.kotlin/
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated packages and test artifacts
+*.apk
+*.aab
+*.apks
+*.abb
+*.dex
+*.class
+
+# Logs, crash dumps, temporary and backup files
+*.log
+hs_err_pid*.log
+replay_pid*.log
+*.tmp
+*.bak
+*.pre-runtime.bak
+**/backup/
+
+# Local-only release and emulator artifacts
+/FocusLock-Release/
+/FocusLock-*.apk
+/local-artifacts/
+/emulator-artifacts/
+
+# Root-level diagnostic screenshots are kept locally unless deliberately curated.
+/focuslock-emulator-*.png
+
+# Unreviewed legacy notes, helper scripts, and raw evidence captures
+/FocusLock.txt
+/run-target36-matrix.ps1
+**/*evidence/
+
+
+# Additional signing material and secret/config exports
+*.jceks
+*.mobileprovision
+*.asc
+*.gpg
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.sqlite
+*.db-wal
+*.db-shm
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Additional signing material and secret/config exports
+*.jceks
+*.mobileprovision
+*.asc
+*.gpg
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.sqlite
+*.db-wal
+*.db-shm
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Historical source snapshots and extracted code fragments
+*.bak
+*.bak-*
+*.audit-backup-*
+android/docs/phase4-ui-lines-*.txt
+
+
+# Deferred / non-production source kept locally
+/android/dormant/
+

@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.FocusLock" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">#07162D</item>
+        <item name="android:navigationBarColor">#07162D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.FocusLock.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#07162D</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/focuslock_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">#07162D</item>
+        <item name="postSplashScreenTheme">@style/Theme.FocusLock</item>
+    </style>
+</resources>

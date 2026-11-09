@@ -1,0 +1,14 @@
+﻿# Gradle and Android build outputs
+.gradle/
+build/
+
+# Local machine configuration
+local.properties
+
+# Packaged binaries
+*.apk
+
+# Local backups and IDE metadata
+backup/
+.idea/
+*.iml
